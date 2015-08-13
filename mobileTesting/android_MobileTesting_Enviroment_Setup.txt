@@ -1,0 +1,8 @@
+Setting up Emulator by command line
+1. Download SDK from http://developer.android.com/sdk/installing/index.html?pkg=tools
+2. Open CMD
+3. Copy the downloaded location path
+4. Go to comand prompt & use that location
+5. Check the list of targets by: android list targets
+5. pate comand line to CMD: android create avd -n Testing_Android -t 1 -c 500M
+6.  

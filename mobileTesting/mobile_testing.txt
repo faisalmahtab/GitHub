@@ -1,0 +1,29 @@
+Mobile Website Testing (Manual)
+
+Ther are two kinds of app in mobile devise
+1. Mobile website
+2. Mobile application
+
+Testing Mobile applications
+1. Emulator - The real device enviroment, like test in android phone, iPhone, Tablet etc.
+2. Simulator
+
+Native Mobile App Testing (Manual)
+
+Mobile Automation Tools:
+Access the mobile website through browser on smartphone.
+
+Mobile app testing automation tools:
+1. Perfecto Mobile (Paid tool)
+2. MonkeyTalkFree (Free)
+3. Androied Driver (Andrioid website) - CANNOT TEST MOBILE APP CAN TEST MOBILE WEBSITE
+4. Robotium (open source) - CAN TEST ONLY android APP
+5. Appium
+6. Ranorex (paid) - CAN TEST MOBILE APPS 
+
+WEBSITES
+1. www.deviceanywhere.com
+2. code.google.com/p/selenium/wiki/AndroidDriver
+3. 
+
+

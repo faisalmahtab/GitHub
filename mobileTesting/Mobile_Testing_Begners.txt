@@ -1,0 +1,72 @@
+Types of Mobile Testing
+
+1. Hardware testing:  internal processors, internal hardware, screen sizes, 
+resolution, space or memory, camera, radio, Bluetooth, WIFI etc.
+
+2. Software or Application testing
+  2.1 Native apps: for use on a platform like mobile and tablets.
+  2.2 Mobile web apps: are server-side apps to access website/s on mobile using different browsers
+  2.3 Hybrid apps: are combinations of native app and web app.
+
+There are few basic differences that set these apart:
+
+- Native apps have single platform affinity while mobile web apps have cross platform affinity.
+- Native apps are written in platforms like SDKs while Mobile web apps are written with web technologies like html, css, asp.net, java, php.
+- For a native app, installation is required but for mobile web apps, no installation is required.
+- Native app can be updated from play store or app store while mobile web apps are centralized updates.
+- Many native app don’t require Internet connection but for mobile web apps it’s a must.
+- Native app works faster when compared to mobile web apps.
+- Native apps are installed from app stores like Google play store or app store where mobile web are websites and are only accessible through Internet.
+
+Significance of Mobile Application Testing
+1. Different range of mobile devices
+2. Wide varieties of mobile devices
+3. Different mobile operating systems
+4. Different versions of operation system
+5. Different mobile network operators
+6. Frequent updates
+
+Types of Mobile App Testing
+
+1. Usability testing– To make sure that the mobile app is easy to use and provides a satisfactory user experience to the customers
+2. Compatibility testing– Testing of the application in different mobiles devices, browsers, screen sizes and OS versions according to the requirements.
+3. Interface testing– Testing of menu options, buttons, bookmarks, history, settings, and navigation flow of the application.
+4. Services testing– Testing the services of the application online and offline.
+5. Low level resource testing: Testing of memory usage, auto deletion of temporary files, local database growing issues known as low level resource testing.
+6. Performance testing– Testing the performance of the application by changing the connection from 2G, 3G to WIFI, sharing the documents, battery consumption, etc.
+7. Operational testing– Testing of backups and recovery plan if battery goes down, or data loss while upgrading the application from store.
+8. Installation tests– Validation of the application by installing /uninstalling it on the devices.
+9. Security Testing– Testing an application to validate if the information system protects data or not.
+
+Mobile Application Testing Strategy
+
+1. Selection of the devices:  Analyze the market and choose the devices that are widely used.
+2. Emulators:  Emulator is a system that runs software from one environment to another environment without changing the software itself. It duplicates the features and work on real system.
+Types of Mobile Emulators
+	2.1 Device Emulator- provided by device manufacturers
+	2.2 Browser Emulator- simulates mobile browser environments.
+	2.3 Operating systems Emulator- Apple provides emulators for iPhones, Microsoft for Windows phones and Google Android phones
+
+	List of few free and easy to use mobile device emulators
+		1.  iPhone Tester: http://iphonetester.com/
+		2.  Mobile Phone Emulator: http://www.mobilephoneemulator.com/
+		3.  MobiReady: http://ready.mobi/
+3.  Consider cloud computing based testing: basically running devices on multiple systems or networks via Internet where applications can be tested, updated and managed.
+
+Mobile Testing process:
+
+Step #1. Identify the types of testing: As ILL application is applicable for browsers, so it’s mandatory to test this application on all supported browsers using different mobile devices. 
+We need to do usability, functional and compatibility testing on different browsers with the combinations of manual and automation test cases.
+
+Step #2. Manual and Automated testing: The methodology followed for this project is Agile with the iteration of two weeks. Every two weeks dev. team releases a new build to testing team and 
+testing team will run their test cases on QA environment. Automation team creates scripts for set of basic functionality and runs the scripts that help determine if the new build is stable enough 
+to test. The Manual testing team will test the new functionality.
+
+Step #3. Beta Testing: Once the regression testing is completed by the QA team, the build moves into UAT. User Acceptance Testing is done by the client. They re-verify all the bugs to make sure 
+every bug was fixed and the application is working as expected on every approved browser.
+
+Step #4. Performance test: Performance testing team tests the performance of the web app using JMeter scripts and with different the loads on the application.
+
+Step #5. Browser testing: The web app gets tested across multiple browsers- both using different simulation tools as well as physically using real mobile devices.
+
+Step #6. Launch plan: After every 4th week the testing moves into staging, where a final round of end to end testing on these devices is performed to make sure the product is ready for production. And then, it goes Live!
